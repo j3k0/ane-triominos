@@ -1,4 +1,4 @@
-package com.triominos.ane.AneTriominos {
+package com.triominos.ane {
 
 	import flash.events.EventDispatcher;
 	import flash.events.StatusEvent;
@@ -28,7 +28,8 @@ package com.triominos.ane.AneTriominos {
             if (!__context) {
                 __context = ExtensionContext.createExtensionContext(EXTENSION_ID, null);
                 if (!__context) {
-                    _log("ERROR", "Extension context is null. Please check if extension.xml is setup correctly.");
+                    // _log("ERROR", "Extension context is null. Please check if extension.xml is setup correctly.");
+                    return null;
                 } else {
                     __context.addEventListener(StatusEvent.STATUS, _onStatus);
                 }
@@ -40,13 +41,13 @@ package com.triominos.ane.AneTriominos {
         {
             var context: ExtensionContext = getContext();
             if(!context) {
-                _log("ERROR", "Extension context is null. Please check if extension.xml is setup correctly.")
+                // _log("ERROR", "Extension context is null. Please check if extension.xml is setup correctly.")
                 return null;
             }
             try {
                 return context.call.apply(context, args);
             } catch (e: Error) {
-                _log("ERROR", "Error calling extension context: " + e.message + " : " + e.getStackTrace());
+                // _log("ERROR", "Error calling extension context: " + e.message + " : " + e.getStackTrace());
             }
             return null;
         }

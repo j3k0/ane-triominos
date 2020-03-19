@@ -1,51 +1,36 @@
-<!--//////////////////////////////////////////////////////////////////////////////////////
-//
-//  Copyright 2017 Freshplanet (http://freshplanet.com | opensource@freshplanet.com)
-//  
-//  Licensed under the Apache License, Version 2.0 (the "License");
-//  you may not use this file except in compliance with the License.
-//  You may obtain a copy of the License at
-//  
-//    http://www.apache.org/licenses/LICENSE-2.0
-//  
-//  Unless required by applicable law or agreed to in writing, software
-//  distributed under the License is distributed on an "AS IS" BASIS,
-//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-//  See the License for the specific language governing permissions and
-//  limitations under the License.
-//  
-//////////////////////////////////////////////////////////////////////////////////////-->
 
 <platform xmlns="http://ns.adobe.com/air/extension/33.1">
     <packagedDependencies>
-<!-- uncomment these if you aren't already packaging them in some other ane -->
-<!--    
-        <packagedDependency>support-compat-27.1.1.jar</packagedDependency>
-        <packagedDependency>support-core-ui-27.1.1.jar</packagedDependency>
-        <packagedDependency>support-core-utils-27.1.1.jar</packagedDependency>
-        <packagedDependency>support-fragment-27.1.1.jar</packagedDependency>
-        <packagedDependency>support-media-compat-27.1.1.jar</packagedDependency>
-        <packagedDependency>support-v4-27.1.1.jar</packagedDependency>
-        <packagedDependency>support-annotations-27.1.1.jar</packagedDependency>
 
-        <packagedDependency>play-services-ads-identifier-16.0.0.jar</packagedDependency>
-        <packagedDependency>play-services-basement-16.0.1.jar</packagedDependency>
-        <packagedDependency>play-services-base-16.0.1.jar</packagedDependency>
-        <packagedDependency>play-services-tasks-16.0.1.jar</packagedDependency>
-        <packagedDependency>play-services-stats-16.0.1.jar</packagedDependency> 
--->
-        <packagedDependency>play-services-measurement-api-16.0.4.jar</packagedDependency>
-        <packagedDependency>play-services-measurement-base-16.0.5.jar</packagedDependency>
+        <packagedDependency>common-1.0.0.jar</packagedDependency>
         <packagedDependency>firebase-analytics-16.0.6.jar</packagedDependency>
         <packagedDependency>firebase-analytics-impl-16.2.4.jar</packagedDependency>
-        <packagedDependency>firebase-core-16.0.6.jar</packagedDependency>
         <packagedDependency>firebase-common-16.0.3.jar</packagedDependency>
+        <packagedDependency>firebase-core-16.0.6.jar</packagedDependency>
         <packagedDependency>firebase-iid-17.0.4.jar</packagedDependency>
         <packagedDependency>firebase-iid-interop-16.0.1.jar</packagedDependency>
         <packagedDependency>firebase-measurement-connector-17.0.1.jar</packagedDependency>
         <packagedDependency>firebase-measurement-connector-impl-17.0.4.jar</packagedDependency>
         <packagedDependency>firebase-messaging-17.3.4.jar</packagedDependency>
+        <packagedDependency>google-services-4.1.0.jar</packagedDependency>
+        <packagedDependency>play-services-ads-identifier-16.0.0.jar</packagedDependency>
+        <packagedDependency>play-services-base-16.0.1.jar</packagedDependency>
+        <packagedDependency>play-services-basement-16.0.1.jar</packagedDependency>
+        <packagedDependency>play-services-measurement-api-16.0.4.jar</packagedDependency>
+        <packagedDependency>play-services-measurement-base-16.0.5.jar</packagedDependency>
+        <packagedDependency>play-services-stats-16.0.1.jar</packagedDependency>
+        <packagedDependency>play-services-tasks-16.0.1.jar</packagedDependency>
+        <packagedDependency>runtime-1.0.0.jar</packagedDependency>
+        <packagedDependency>support-annotations-26.1.0.jar</packagedDependency>
+        <packagedDependency>support-compat-26.1.0.jar</packagedDependency>
+        <packagedDependency>support-core-ui-26.1.0.jar</packagedDependency>
+        <packagedDependency>support-core-utils-26.1.0.jar</packagedDependency>
+        <packagedDependency>support-fragment-26.1.0.jar</packagedDependency>
+        <packagedDependency>support-media-compat-26.1.0.jar</packagedDependency>
+        <packagedDependency>support-v4-26.1.0.jar</packagedDependency>
+
     </packagedDependencies>
     <packagedResources>
     </packagedResources>
 </platform>
+

@@ -38,3 +38,5 @@ android/full_libs/
 android/\.gradle/
 
 android/lib/build/
+
+/bin
