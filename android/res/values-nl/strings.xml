@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_turn_title">Jouw beurt</string>
+    <string name="your_turn_message">Het is jouw beurt om te spelen tegen %1, speel nu!</string>
+    <string name="invitation_received_title">Uitnodiging</string>
+    <string name="invitation_received_message">Nieuwe uitnodiging ontvangen van %1</string>
+    <string name="game_over_title">Spel Afgelopen</string>
+    <string name="game_over_message">Je spel met %1 is afgelopen, bekijk het!</string>
+    <string name="opponent_has_left_title">Spel afgelopen</string>
+    <string name="opponent_has_left_message">%1 geeft het spel op.</string>
+</resources>

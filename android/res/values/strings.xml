@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_turn_title">Your Turn</string>
+    <string name="your_turn_message">It\'s your turn to play against %1, play now!</string>
+    <string name="invitation_received_title">Let\'s Play</string>
+    <string name="invitation_received_message">New invitation received from %1</string>
+    <string name="game_over_title">Game Finished</string>
+    <string name="game_over_message">Your game against %1 is finished, check it out!</string>
+    <string name="opponent_has_left_title">Game Ended</string>
+    <string name="opponent_has_left_message">%1 has resigned from the game.</string>
+</resources>
