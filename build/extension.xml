@@ -16,7 +16,7 @@
 //  
 //////////////////////////////////////////////////////////////////////////////////////-->
 
-<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+<extension xmlns="http://ns.adobe.com/air/extension/32.0">
     <id>com.triominos.ane.AneTriominos</id>
     <versionNumber>2.0.0</versionNumber>
     <platforms>

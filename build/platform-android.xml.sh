@@ -23,7 +23,8 @@ function packageName() {
 }
 
 echo '
-<platform xmlns="http://ns.adobe.com/air/extension/33.1">
+<platform xmlns="http://ns.adobe.com/air/extension/32.0">
+
     <packagedDependencies>
 '
 for i in $(

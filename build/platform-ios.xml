@@ -16,7 +16,7 @@
 //  
 //////////////////////////////////////////////////////////////////////////////////////-->
 
-<platform xmlns="http://ns.adobe.com/air/extension/33.1">
+<platform xmlns="http://ns.adobe.com/air/extension/32.0">
     <sdkVersion>10.0</sdkVersion>
     <linkerOptions></linkerOptions>
 </platform>
