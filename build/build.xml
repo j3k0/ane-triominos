@@ -118,33 +118,49 @@
         </foreach>
 
         <!-- Copy to build folder -->
-        <copy todir="temp/android">
-            <fileset dir="../android/lib/dependencies" excludes="FlashRuntimeExtensions.jar, runtimeClasses.jar">
-                <include name="*.jar"/>
-            </fileset>
-        </copy>
+        <copydir
+            src="../android/lib/dependencies"
+            dest="temp/android"
+            includes="*.jar *-res/**/*.* *-AndroidManifest.xml"
+            />
 
-        <copy todir="temp/android/basement-res" overwrite="true" failonerror="true">
+        <!-- copy todir="temp/android/basement-res" overwrite="true" failonerror="true">
             <fileset dir="../android/basement-res"/>
         </copy>
         <copy todir="temp/android/res" overwrite="true">
             <fileset dir="${android.res}"/>
-        </copy>
+        </copy -->
+
         <delete dir="../android/lib/dependencies"/>
         <delete dir="../android/lib/build"/>
 
     </target>
 
     <target name="unzipAAR">
-        <basename property="aarFileName" file="${aarFile}"
-            suffix=".aar"/>
+        <basename property="aarFileName" file="${aarFile}" suffix=".aar"/>
         <unzip src="${aarFile}" dest="../android/lib/dependencies/${aarFileName}" overwrite="true"/>
-        <if>
-            <available file="../android/lib/dependencies/${aarFileName}/classes.jar"/>
+        <if> <available file="../android/lib/dependencies/${aarFileName}/classes.jar"/>
             <then>
-                <move file="../android/lib/dependencies/${aarFileName}/classes.jar" tofile="../android/lib/dependencies/${aarFileName}.jar"/>
+                <move
+                    file="../android/lib/dependencies/${aarFileName}/classes.jar"
+                    tofile="../android/lib/dependencies/${aarFileName}.jar"/>
             </then>
         </if>
+        <if> <available file="../android/lib/dependencies/${aarFileName}/res"/>
+            <then>
+                <move
+                    file="../android/lib/dependencies/${aarFileName}/res"
+                    tofile="../android/lib/dependencies/${aarFileName}-res"/>
+            </then>
+        </if>
+        <if> <available file="../android/lib/dependencies/${aarFileName}/AndroidManifest.xml"/>
+            <then>
+                <move
+                    file="../android/lib/dependencies/${aarFileName}/AndroidManifest.xml"
+                    tofile="../android/lib/dependencies/${aarFileName}-AndroidManifest.xml"/>
+            </then>
+        </if>
+        <delete dir="../android/lib/dependencies/${aarFileName}"/>
     </target>
 
     <!-- Actionscript -->

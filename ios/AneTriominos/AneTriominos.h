@@ -10,7 +10,7 @@
 + (AneTriominos*)instance;
 + (NSString*)convertToJSonString:(NSDictionary*)dict;
 
-- (BOOL) isInitialized;
+- (BOOL)isInitialized;
 - (void)sendEvent:(NSString*)code;
 - (void)sendLog:(NSString*)log;
 - (void)sendEvent:(NSString*)code level:(NSString*)level;

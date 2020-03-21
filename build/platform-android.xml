@@ -2,35 +2,94 @@
 <platform xmlns="http://ns.adobe.com/air/extension/33.1">
     <packagedDependencies>
 
-        <packagedDependency>common-1.0.0.jar</packagedDependency>
-        <packagedDependency>firebase-analytics-16.0.6.jar</packagedDependency>
-        <packagedDependency>firebase-analytics-impl-16.2.4.jar</packagedDependency>
+        <packagedDependency>annotation-1.0.0.jar</packagedDependency>
+        <packagedDependency>asynclayoutinflater-28.0.0.jar</packagedDependency>
+        <packagedDependency>bolts-android-1.4.0.jar</packagedDependency>
+        <packagedDependency>bolts-applinks-1.4.0.jar</packagedDependency>
+        <packagedDependency>bolts-tasks-1.4.0.jar</packagedDependency>
+        <packagedDependency>collection-1.0.0.jar</packagedDependency>
+        <packagedDependency>collections-28.0.0.jar</packagedDependency>
+        <packagedDependency>common-1.1.1.jar</packagedDependency>
+        <packagedDependency>coordinatorlayout-28.0.0.jar</packagedDependency>
+        <packagedDependency>core-common-2.0.0.jar</packagedDependency>
+        <packagedDependency>cursoradapter-28.0.0.jar</packagedDependency>
+        <packagedDependency>customview-28.0.0.jar</packagedDependency>
+        <packagedDependency>documentfile-28.0.0.jar</packagedDependency>
+        <packagedDependency>drawerlayout-28.0.0.jar</packagedDependency>
         <packagedDependency>firebase-common-16.0.3.jar</packagedDependency>
-        <packagedDependency>firebase-core-16.0.6.jar</packagedDependency>
         <packagedDependency>firebase-iid-17.0.4.jar</packagedDependency>
         <packagedDependency>firebase-iid-interop-16.0.1.jar</packagedDependency>
         <packagedDependency>firebase-measurement-connector-17.0.1.jar</packagedDependency>
-        <packagedDependency>firebase-measurement-connector-impl-17.0.4.jar</packagedDependency>
         <packagedDependency>firebase-messaging-17.3.4.jar</packagedDependency>
-        <packagedDependency>google-services-4.1.0.jar</packagedDependency>
-        <packagedDependency>play-services-ads-identifier-16.0.0.jar</packagedDependency>
+        <packagedDependency>interpolator-28.0.0.jar</packagedDependency>
+        <packagedDependency>lifecycle-common-2.0.0.jar</packagedDependency>
+        <packagedDependency>livedata-1.1.1.jar</packagedDependency>
+        <packagedDependency>livedata-core-1.1.1.jar</packagedDependency>
+        <packagedDependency>loader-28.0.0.jar</packagedDependency>
+        <packagedDependency>localbroadcastmanager-28.0.0.jar</packagedDependency>
+        <packagedDependency>play-services-ads-19.0.0.jar</packagedDependency>
+        <packagedDependency>play-services-ads-base-19.0.0.jar</packagedDependency>
+        <packagedDependency>play-services-ads-identifier-17.0.0.jar</packagedDependency>
+        <packagedDependency>play-services-ads-lite-19.0.0.jar</packagedDependency>
         <packagedDependency>play-services-base-16.0.1.jar</packagedDependency>
-        <packagedDependency>play-services-basement-16.0.1.jar</packagedDependency>
-        <packagedDependency>play-services-measurement-api-16.0.4.jar</packagedDependency>
-        <packagedDependency>play-services-measurement-base-16.0.5.jar</packagedDependency>
+        <packagedDependency>play-services-basement-17.0.0.jar</packagedDependency>
+        <packagedDependency>play-services-gass-19.0.0.jar</packagedDependency>
+        <packagedDependency>play-services-measurement-base-17.1.0.jar</packagedDependency>
+        <packagedDependency>play-services-measurement-sdk-api-17.1.0.jar</packagedDependency>
         <packagedDependency>play-services-stats-16.0.1.jar</packagedDependency>
-        <packagedDependency>play-services-tasks-16.0.1.jar</packagedDependency>
-        <packagedDependency>runtime-1.0.0.jar</packagedDependency>
-        <packagedDependency>support-annotations-26.1.0.jar</packagedDependency>
-        <packagedDependency>support-compat-26.1.0.jar</packagedDependency>
-        <packagedDependency>support-core-ui-26.1.0.jar</packagedDependency>
-        <packagedDependency>support-core-utils-26.1.0.jar</packagedDependency>
-        <packagedDependency>support-fragment-26.1.0.jar</packagedDependency>
-        <packagedDependency>support-media-compat-26.1.0.jar</packagedDependency>
-        <packagedDependency>support-v4-26.1.0.jar</packagedDependency>
+        <packagedDependency>play-services-tasks-17.0.0.jar</packagedDependency>
+        <packagedDependency>print-28.0.0.jar</packagedDependency>
+        <packagedDependency>runtime-1.1.1.jar</packagedDependency>
+        <packagedDependency>slidingpanelayout-28.0.0.jar</packagedDependency>
+        <packagedDependency>support-annotations-28.0.0.jar</packagedDependency>
+        <packagedDependency>support-compat-28.0.0.jar</packagedDependency>
+        <packagedDependency>support-core-ui-28.0.0.jar</packagedDependency>
+        <packagedDependency>support-core-utils-28.0.0.jar</packagedDependency>
+        <packagedDependency>support-fragment-28.0.0.jar</packagedDependency>
+        <packagedDependency>support-media-compat-28.0.0.jar</packagedDependency>
+        <packagedDependency>support-v4-28.0.0.jar</packagedDependency>
+        <packagedDependency>swiperefreshlayout-28.0.0.jar</packagedDependency>
+        <packagedDependency>viewmodel-1.1.1.jar</packagedDependency>
+        <packagedDependency>viewpager-28.0.0.jar</packagedDependency>
 
     </packagedDependencies>
+
     <packagedResources>
+    
+        <packagedResource>
+            <packageName>android.support.coordinatorlayout</packageName>
+            <folderName>coordinatorlayout-28.0.0-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>com.google.firebase.messaging</packageName>
+            <folderName>firebase-messaging-17.3.4-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>com.google.android.gms.ads.impl</packageName>
+            <folderName>play-services-ads-19.0.0-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>com.google.android.gms.ads</packageName>
+            <folderName>play-services-ads-lite-19.0.0-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>com.google.android.gms.base</packageName>
+            <folderName>play-services-base-16.0.1-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>com.google.android.gms.common</packageName>
+            <folderName>play-services-basement-17.0.0-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>android.support.compat</packageName>
+            <folderName>support-compat-28.0.0-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>android.support.mediacompat</packageName>
+            <folderName>support-media-compat-28.0.0-res</folderName>
+        </packagedResource>
+
     </packagedResources>
+
 </platform>
 
